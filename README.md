@@ -1,7 +1,7 @@
 # signup-form
 This is my 3rd project with web design using HTML &amp; CSS for The Odin Project
 
-My first landing page for The Odin Project
+My sign up form for The Odin Project
 
 This is my 3rd project, so far I've learned a lot :D
 
