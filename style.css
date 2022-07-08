@@ -6,7 +6,7 @@
 
 /*VARIABLES FOR COLORS*/
 :root{
-    --bg-color-form: rgba(32, 32, 32, 0.5);
+    --bg-color-form: rgb(31, 31, 31);
     --bg-color-logo: rgba(0, 0, 0, 0.74);
     --input-label-text-color: #888888;
     --log-in-btn-color: #3DE83D; 
@@ -60,7 +60,7 @@ video{
 .form-input-container{
     margin: 155px 0px 0px 0px;
     width: auto;
-    height: 375px;
+    height: 350px;
     background-color: var(--bg-color-form);
 }
 
@@ -87,6 +87,40 @@ video{
     font-size: 35px;
     font-weight: bolder;
     font-family: sans-serif;
+}
+
+.info-container{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    flex-flow: row wrap;
+}
+
+.info-container input{
+    background-color: var(--bg-color-input-text);
+    border: 1px solid #E6E6E640;
+    padding: 5px;
+    outline: none;
+    color: var(--log-in-btn-color);
+}
+
+.info-container {
+    color: #c4c4c4;
+}
+
+.info-container div{
+    width: 35%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.info-container div:first-child{
+    margin: 0px 2.5% 0px 0px;
+}
+
+label{
+    margin: 0px 10px 0px 0px;
 }
 
 h2{
